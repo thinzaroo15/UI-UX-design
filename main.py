@@ -36,9 +36,9 @@ def zawgyitouni():
 def zawgyitowin():
     return render_template("zawgyitowin.html")
 
-@app.route("/firstpages")
-def firstpage():
-    return render_template("firstpage.html")
+
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
